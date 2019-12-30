@@ -1,7 +1,6 @@
 ## Introduction
-<img src='imgs/unflatten.png' width="900px"/>
-
-<img src='imgs/original.png' width="900px"/>
+<img src='imgs/original.png' width="450px"/>
+<img src='imgs/flatten.png' width="450px"/>
 
 The code provides image reading from raw Spectralis(.vol) and Cirrus(.img) and Matlab files (.mat). It supports 
 retina flatten, cropping, reconstruction and visualization e.t.c
@@ -51,3 +50,25 @@ mask = np.array(dicts['lesion'])
    
    Standard 50%-50% split are used as in the literature with a fixed training epoch.
 
+### Citation
+If you are using the healthy and MS dataset, please cite:
+```
+@article{he2019retinal,
+  title={Retinal layer parcellation of optical coherence tomography images: Data resource for multiple sclerosis and healthy controls},
+  author={He, Yufan and Carass, Aaron and Solomon, Sharon D and Saidha, Shiv and Calabresi, Peter A and Prince, Jerry L},
+  journal={Data in brief},
+  volume={22},
+  pages={601--604},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@inproceedings{he2019fully,
+  title={Fully Convolutional Boundary Regression for Retina OCT Segmentation},
+  author={He, Yufan and Carass, Aaron and Liu, Yihao and Jedynak, Bruno M and Solomon, Sharon D and Saidha, Shiv and Calabresi, Peter A and Prince, Jerry L},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={120--128},
+  year={2019},
+  organization={Springer}
+}
+```
