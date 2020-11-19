@@ -72,4 +72,13 @@ If you are using the healthy and MS dataset, please cite:
   year={2019},
   organization={Springer}
 }
+
+@article{he2020structured,
+  title={Structured layer surface segmentation for retina OCT using fully convolutional regression networks},
+  author={He, Yufan and Carass, Aaron and Liu, Yihao and Jedynak, Bruno M and Solomon, Sharon D and Saidha, Shiv and Calabresi, Peter A and Prince, Jerry L},
+  journal={Medical Image Analysis},
+  pages={101856},
+  year={2020},
+  publisher={Elsevier}
+}
 ```
